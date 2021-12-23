@@ -1,0 +1,32 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-core": "^3.3.0",
+    "apollo-server-express": "^3.3.0",
+    "bcrypt": "^5.0.1",
+    "connect-mongo": "^4.6.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "graphql": "^15.6.0",
+    "graphql-depth-limit": "^1.1.0",
+    "graphql-upload": "^12.0.0",
+    "graphql-validation-complexity": "^0.4.2",
+    "helmet": "^4.6.0",
+    "mongoose": "^6.0.8",
+    "sharp": "^0.29.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
